@@ -1,0 +1,43 @@
+/* FAQ */
+.faq-answer,
+.collapse .faq-answer {
+    display:none;
+}
+.expand,
+.expand .faq-answer,
+.faq-answer:target,
+.faq-category:target .faq-answer {
+    display:block;
+}
+
+.expand .collapse {
+    display:none;
+}
+.collapse .expand {
+    display:block;
+}
+
+
+
+
+/*
+.faq-answer,
+.collapse .faq-answer,
+.expand .collapse {
+    display:block;
+}
+.collapse.faq-answer * {
+    display:none;
+}
+.collapse p:first-child {
+    display:block;
+    height:1.5em;
+    line-height:1.5;
+    margin:0;
+    max-width:150px;
+    opacity:0.5;
+    overflow:hidden;
+    padding-right:10px;
+    background:url(../images/ellipsis.png) no-repeat right 11px;
+}
+*/
